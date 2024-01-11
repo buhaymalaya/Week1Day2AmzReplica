@@ -7,6 +7,7 @@ img {
     justify-content: center;  
     height: 40px;
     width: 80px;
+    margin-bottom: 20px;
 }
 
 header {
@@ -30,7 +31,7 @@ form {
     justify-content: center;
     
     width: 400px;
-    height: 350px;
+    height: 300px;
     padding: 10px;
     border: 10px;
     border-width: 1px;
@@ -38,6 +39,8 @@ form {
     border-color: gray;
     margin-block: 30px;
     border-radius: 3px;
+    margin-bottom: 0px;
+    padding-top: 0px;
 }
 
 
@@ -74,6 +77,20 @@ a {
 .new {
     width: 100%; 
    text-align: center; 
+   margin-top: 10px;
+   
+   
+}
+
+.forgot {
+    display: flex;
+    justify-self: flex-end;
+    margin-right: 0;
+    flex-grow: 1;
+}
+
+.pass {
+    padding-left: 50px;
 }
 
 .passwordlabel {
